@@ -1,4 +1,4 @@
-public class DataHolder {
+public class DataProcessor {
 
      int integerValue;
      double doubleValue;
@@ -15,7 +15,7 @@ public class DataHolder {
     }
 }
 
-public class Main {
+public class DataManipulator {
 
     public static void main(String[] args) {
         DataHolder data = new DataHolder();
