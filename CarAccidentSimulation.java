@@ -85,32 +85,3 @@ public class CarAccidentSimulation {
     }
 }
 
-class CarCrashException extends Exception {
-    public CarCrashException(String message) {
-        super(message);
-    }
-}
-
-class CarMalfunctionException extends Exception {
-    public CarMalfunctionException(String message) {
-        super(message);
-    }
-}
-
-class RecklessDrivingException extends Exception {
-    public RecklessDrivingException(String message) {
-        super(message);
-    }
-}
-
-class RoadConditionException extends Exception {
-    public RoadConditionException(String message) {
-        super(message);
-    }
-}
-
-class DriverHealthIssueException extends Exception {
-    public DriverHealthIssueException(String message) {
-        super(message);
-    }
-}
