@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class CarAccidentSimulation {
-    private static final Random rand = new Random();
+    private static final Random randomGenerator = new Random();
 
     public static void main(String[] args) {
         try {
@@ -27,7 +27,7 @@ public class CarAccidentSimulation {
     }
 
     public static double generateRandomNumber() {
-        return rand.nextDouble() * 65.0;
+        return randomGenerator.nextDouble() * 65.0;
     }
 
     public static void driveCar() throws CarCrashException, CarMalfunctionException, RecklessDrivingException, RoadConditionException, DriverHealthIssueException {
